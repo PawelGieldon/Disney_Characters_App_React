@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color:#66757F;
+}
+
+.main {
+  margin-left: 5rem;
+  
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  margin-right: 12rem;
+  
+}
+
+.another-flex {
+  display: flex;
+  
+}
+
+img {
+  display: flex;
+  align-items: center;
+  width:30px;
+  height: 25px;
+  margin-right: 6rem;
+  margin-top: 35px;
+  
+}
+
+
+.names {
+  margin-left: 7rem;
+  height: 25px;
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: larger;
+}
+.count {
+  margin-left: 16rem;
+}
+
+.films {
+  margin-left: 17rem;
+  height: 25px;
+  margin-top: 35px;
+  font-weight: 500;
+}
+li {
+  list-style: none;
+  width: 300px;
+  margin: 0 auto;
+}
+
+li a {
+  text-decoration: none; 
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  
+}
+li a:hover {
+  color: red;
+}
+
+.popularChar{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.popularCharFlex{
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+}
+.popularCharFilms{
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+}
+.popularName {
+  margin-right: 3rem;
+  margin-left: 2.9rem;
+  display: flex;
+}
+.popularFilmLength {
+  margin-top: 2px;
+  margin-right: 5.5rem;
+  margin-left: 3rem;
+  display: flex;
+}
+
+.popularImages {
+  display: inline-block;
+  margin-top: 1px;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  width: 100px;
+  height: 100px;
+  
+}
+
+.mostPopular {
+    width: 700px;
+    height: 400px;    
+    justify-content: center; 
+    align-items: center; 
+  
+}
+.popularMain {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 60.1%;
+  left: 8%;
+}
+
+.back-link {
+  margin-left: 1px;
+}
+
+
+.headlines {
+  display: flex;
+}
+
+.link {
+  margin-left: 2rem;
+  margin-top: 1.25rem;
+}
+
+.popular-headline {
+  margin-left: 7rem;
+  font-size: larger;
+  font-weight: 500;
+}
